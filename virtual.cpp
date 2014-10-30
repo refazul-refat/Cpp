@@ -31,7 +31,7 @@ void action(Animal *a)
 	a->eat();
 }
 
-int main()
+int main(int argc,char* argv[])
 {
 	Animal *a=new Animal();
 	Dog *d=new Dog();
