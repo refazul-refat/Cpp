@@ -78,7 +78,7 @@ char* Pair<int,char*>::getValue()
 }
 
 
-int main()
+int main(int argc,char* argv[])
 {
 	Pair<int,double> p(2,3.45);
 	Pair<double,double> d(5.43,8.76);
